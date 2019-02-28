@@ -1,4 +1,12 @@
-# jpcnbbs
+# 中日友好BBS
+前端使用单页Vue
+后端使用CI
+
+### 技术依赖
+
+- element
+
+- Vant
 
 ## Project setup
 ```
