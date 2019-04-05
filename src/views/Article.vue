@@ -28,11 +28,8 @@
             <div class="commentsContext">dwqdqdqwdqdqwddqw</div>
             <div class="clearBoth"></div>
 
-            <span class="el-card-up time">2018-11-26 10:12:23</span>
+            <span class="el-card-uptime">2018-11-26 10:12:23</span>
         </div>
-    </el-card>
-    <el-card>
-
     </el-card>
 
 
