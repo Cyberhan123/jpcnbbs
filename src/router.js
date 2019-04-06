@@ -22,6 +22,12 @@ export default new Router({
             component: () => import(/* webpackChunkName: "about" */ './views/SendMessage.vue')
         },
         {
+          path:'/userInfo',
+          name:'userInfo',
+          component: () => import( './views/UserInfo.vue')
+
+        },
+        {
             path: '/home',
             name: 'home',
             component: () => import('./views/Home.vue'),

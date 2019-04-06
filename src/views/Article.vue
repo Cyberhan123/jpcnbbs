@@ -5,15 +5,49 @@
             left-text="返回"
             left-arrow
             @click-left="returnBtn"></van-nav-bar>
-    <el-card shadow="always" style="margin-bottom: 10px" >
+    <el-card shadow="" style="margin-bottom: 10px" >
         <div class="el-card-actile">
+        <div class="article-title">中日友好</div>
+        <div class="article-content">
+            文章内容文章内容文章内容文章内容文章内容文章内容文章内容文章内容文章内容文章内容文章内容文章内容
+            文章内容文章内容文章内容文章内容文章内容文章内容文章内容文章内容文章内容文章内容文章内容文章内容
+            文章内容文章内容文章内容文章内容文章内容文章内容
+            文章内容文章内容文章内容文章内容文章内容
+            文章内容文章内容文章内容文章内容文章内容文章内容
+            文章内容文章内容文章内容文章内容文章内容文章内容文章内容
+            文章内容文章内容文章内容文章内容文章内容
+            文章内容文章内容文章内容文章内容
+            文章内容文章内容文章内容文章内容
+            文章内容文章内容文章内容文章内容文章内容文章内容文章内容
+            文章内容文章内容文章内容文章内容文章内容
+            文章内容文章内容文章内容文章内容文章内容
+            文章内容文章内容文章内容文章内容文章内容文章内容文章内容文章内容文章内容文章内容文章内容
+            文章内容文章内容文章内容文章内容文章内容文章内容文章内容文章内容文章内容文章内容文章内容文章内容
+            文章内容文章内容文章内容文章内容文章内容文章内容文章内容文章内容文章内容文章内容
+            文章内容文章内容文章内容文章内容文章内容文章内容文章内容文章内容文章内容文章内容
+            文章内容文章内容文章内容文章内容文章内容文章内容文章内容文章内容文章内容文章内容
+            文章内容文章内容文章内容文章内容文章内容文章内容文章内容文章内容文章内容文章内容
+            文章内容文章内容文章内容文章内容文章内容文章内容文章内容文章内容文章内容文章内容
+            文章内容文章内容文章内容文章内容文章内容文章内容文章内容文章内容文章内容文章内容
+            文章内容文章内容文章内容文章内容文章内容文章内容文章内容文章内容文章内容文章内容
+            文章内容文章内容文章内容文章内容文章内容文章内容文章内容文章内容文章内容文章内容
+            文章内容文章内容文章内容文章内容文章内容文章内容文章内容文章内容文章内容文章内容
+            文章内容文章内容文章内容文章内容文章内容文章内容文章内容文章内容文章内容文章内容
+            文章内容文章内容文章内容文章内容文章内容文章内容文章内容文章内容文章内容文章内容
+            文章内容文章内容文章内容文章内容文章内容文章内容文章内容文章内容文章内容文章内容
+            文章内容文章内容文章内容文章内容文章内容文章内容文章内容文章内容文章内容文章内容
+            文章内容文章内容文章内容文章内容文章内容文章内容文章内容文章内容文章内容文章内容
 
 
+
+
+
+        </div>
         </div>
         <el-input
                 type="textarea"
                 :autosize="{ minRows: 2, maxRows: 4}"
-                placeholder="请输入内容"
+                placeholder="发表评论"
                 v-model="textarea"
         >
         </el-input>
@@ -27,8 +61,10 @@
             <div class="clearBoth"></div>
             <div class="commentsContext">dwqdqdqwdqdqwddqw</div>
             <div class="clearBoth"></div>
+            <!--<el-button round style="float: left;margin-left: 2rem" size="mini">回复</el-button>-->
+            <span class="timeStamp">2018-11-26 10:12:23</span>
+            <div class="clearBoth"></div>
 
-            <span class="el-card-uptime">2018-11-26 10:12:23</span>
         </div>
     </el-card>
 
@@ -54,6 +90,12 @@
 </script>
 
 <style scoped>
+.timeStamp{
+    float: right;
+    color: darkgrey;
+    font-size: 0.2rem;
+
+}
 .commentsContext{
     float: left;
     margin-left: 2rem;
@@ -84,5 +126,8 @@
     padding-top: 0.5rem;
     padding-bottom: 0.5rem;
     border-bottom: 0.05rem gainsboro solid;
+}
+.article-title{
+    font-size: 1.5rem;
 }
 </style>
