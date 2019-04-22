@@ -20,9 +20,9 @@
         <div class="page-component-up" @click="dialogFormVisible=true"><i class="el-icon-edit"
                                                                           style="font-size: 20px;line-height: 2;color: white "></i>
         </div>
-        <div>
-            <list-item v-for="i in 10" :key="i"/>
-        </div>
+<!--        <div>-->
+<!--            <list-item v-for="i in 10" :key="i"/>-->
+<!--        </div>-->
     </div>
 </template>
 

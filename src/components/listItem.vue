@@ -2,13 +2,14 @@
     <div @click="jumpToArticle">
         <el-card shadow="always" style="margin-bottom: 10px" >
             <el-tag class="el-card-tag" color="red">置顶</el-tag>
-            <h3 class="el-card-title">胡萝卜不辣</h3>
+            <h3 class="el-card-title">{{article.name}}</h3>
             <div class="el-card-main">胡萝卜不辣胡萝卜不辣胡萝卜不辣胡萝卜
                 不辣胡萝卜不辣胡萝卜不辣胡萝卜不辣胡萝卜不
                 辣胡萝卜不辣胡萝卜不辣胡萝卜不辣胡萝卜不辣胡萝卜不辣胡萝卜不辣
                 辣胡萝卜不辣胡萝卜不辣胡萝卜不辣胡萝卜不辣胡萝卜不辣胡萝卜不辣
                 辣胡萝卜不辣胡萝卜不辣胡萝卜不辣胡萝卜不辣胡萝卜不辣胡萝卜不辣
             </div>
+            <div>{{ind}}</div>
             <span class="el-card-uptime">2018-11-26 10:12:23</span>
         </el-card>
     </div>
@@ -18,6 +19,7 @@
 <script>
     export default {
         name: "listItem",
+        props:["article","ind"],
         methods:{
             jumpToArticle(){
                 this.$router.push('/article')

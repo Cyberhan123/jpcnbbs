@@ -52,6 +52,12 @@ export default new Router({
                     name: 'message',
                     component: () => import ('./views/Message.vue')
                 },
+                {
+                    path:'userInfo',
+                    name:'userInfo',
+                    component: () => import( './views/UserInfo.vue')
+
+                }
             ]
         },
         {

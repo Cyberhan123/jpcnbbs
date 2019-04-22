@@ -82,6 +82,9 @@
 
             }
         },
+        created(){
+
+        },
         methods:{
             onConfirm(value){
                 this.sex = value;

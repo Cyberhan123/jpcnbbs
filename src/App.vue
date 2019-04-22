@@ -11,7 +11,7 @@
 
     export default {
         components: {
-            'topNavbar': TopNavbar
+            topNavbar: TopNavbar
         },
         created(){
             try {
@@ -19,9 +19,7 @@
                     document.body.removeChild(document.getElementsByClassName('loader')[0]);
                     document.getElementById('app').style.display = 'block';
                 }, 1000)
-            } catch (e) {
-                console.error("warning network is error or"+e);
-            }
+            } catch (e) {}
         }
     }
 </script>

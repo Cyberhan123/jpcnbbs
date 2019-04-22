@@ -6,18 +6,18 @@
             <img  v-lazy="image" alt="" src=""/>
         </van-swipe-item>
     </van-swipe>
-    <div v-for="i in 10">
-        <list-item :key="i"/>
-    </div>
+<!--    <div v-for="i in 10">-->
+<!--        <list-item :key="i"/>-->
+<!--    </div>-->
 </div>
 </template>
 
 <script>
-    import listItem from '../components/listItem'
+    // import listItem from '../components/listItem'
     export default {
         name: "study",
         components:{
-          listItem,
+          // listItem:listItem,
         },
         data(){
             return{

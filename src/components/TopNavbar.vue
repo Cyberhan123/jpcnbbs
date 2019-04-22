@@ -17,7 +17,8 @@
             <el-menu-item index="/home/seek" style="padding: 0 17px">资讯</el-menu-item>
             <el-menu-item index="/home/study" style="padding: 0 17px">留学</el-menu-item>
             <el-menu-item index="/home/communication" style="padding: 0 17px;">交流</el-menu-item>
-            <el-menu-item index="/home/message"style="padding: 0 17px">消息</el-menu-item>
+            <el-menu-item index="/home/message" style="padding: 0 17px">消息</el-menu-item>
+            <el-menu-item index="/home/userInfo" style="padding: 0 17px">用户</el-menu-item>
         </el-menu>
     </div>
 </template>
@@ -32,9 +33,7 @@
             };
         },
         methods: {
-            handleSelect(key, keyPath) {
-                console.log(key, keyPath);
-            },
+            handleSelect(key, keyPath) {},
             jumpToSign(){
                 this.$router.push('/authorization/signin')
             }

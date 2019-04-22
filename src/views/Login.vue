@@ -21,7 +21,8 @@
 
             };
         },
-        methods: {}
+        methods: {
+        }
     }
 </script>
 

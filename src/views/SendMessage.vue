@@ -6,10 +6,6 @@
                 left-arrow
                 @click-left="returnBtn"></van-nav-bar>
         <ul class="content">
-            <li class="message" v-for="i in 4">11111</li>
-            <li class="message-my" v-for="i in 4">11111</li>
-            <li class="message-my" v-for="i in 4">11111</li>
-            <li class="message-my" v-for="i in 4">11111</li>
         </ul>
         <div class="footer">
             <el-row type="flex">
