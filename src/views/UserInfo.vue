@@ -3,7 +3,6 @@
         <van-cell-group>
             <van-field v-model="username" clearable
                        style="padding-top: 25px"
-
                        label="昵称"
                        placeholder="请输入用户名"></van-field>
             <van-field v-model="sex" clearable
@@ -65,19 +64,16 @@
         data() {
             var I=this.$store.state.BASIC_URL+"/users";
             return {
-                aa:I,
-                textarea: '',
-                arr:[1,2,3,4,5,6,7,8,9,10],
                 columns: ['男', '女','不显示性别'],
-                signature:'',
+                signature:'好好学习，天天向上',
                 sex:'男',
-                job:'',
-                username: 'asas',
+                job:'软件工程师',
+                username: 'Allen',
                 password: '',
-                email: '',
-                phone: '',
-                collage: '',
-                address:'',
+                email: '1485562214@qq.com',
+                phone: '13333333333',
+                collage: '哈尔滨理工大学',
+                address:'黑龙江省哈尔滨市哈尔滨理三大动力路',
                 isShowSex:false
 
             }
