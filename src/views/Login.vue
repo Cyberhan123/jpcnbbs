@@ -1,9 +1,9 @@
 <template>
     <el-form status-icon label-width="100px" >
-        <el-form-item prop="email"> <el-input placeholder="邮箱/手机号"></el-input>
+        <el-form-item prop="email"> <el-input autofocus placeholder="邮箱/手机号"></el-input>
         </el-form-item>
         <el-form-item prop="pass">
-            <el-input type="password"  autocomplete="off" placeholder="邮箱/手机号"></el-input>
+            <el-input type="password"  autocomplete="off" placeholder="密码"></el-input>
         </el-form-item>
         <el-form-item>
             <el-button type="primary" >提交</el-button>

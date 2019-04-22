@@ -7,9 +7,9 @@
                     <el-button plain style="margin-top: 10px" @click="jumpToLogin">登录</el-button>
                     <el-button type="primary" style="margin-top: 10px" @click="jumpToSign">注册</el-button>
                 </div>
-                <div class="author-off" :hidden="false">
-                   你好:{{username}}
-                </div>
+                <router-link class="author-off" :hidden="false" to="/authorization/login">
+                        {{username}}
+                </router-link>
             </el-col>
         </el-row>
         <el-menu :default-active="activeIndex" class="el-menu-demo" mode="horizontal" @select="handleSelect"
@@ -29,7 +29,8 @@
         data() {
             return {
                 activeIndex: '/home/seek',
-                username:'11111'
+                username:'Allen',
+                log:'登录'
             };
         },
         methods: {
